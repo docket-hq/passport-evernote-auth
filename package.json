@@ -1,0 +1,32 @@
+{
+  "name": "passport-evernote-auth",
+  "version": "0.0.0",
+  "description": "Passport strategy for Evernote that includes request object passthrough.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnbarlow/passport-evernote-auth.git"
+  },
+  "keywords": [
+    "passport",
+    "evernote",
+    "auth",
+    "oauth"
+  ],
+  "author": "John Barlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnbarlow/passport-evernote-auth/issues"
+  },
+  "homepage": "https://github.com/jnbarlow/passport-evernote-auth#readme",
+  "dependencies": {
+    "passport-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
+}
